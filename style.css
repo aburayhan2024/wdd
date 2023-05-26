@@ -1,0 +1,147 @@
+
+
+#img1 {
+    background-image: url(img/1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80vh;
+
+}
+
+.caption {
+    margin: 0px auto;
+    width: 55%
+}
+
+.caption p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 568px) {
+    #img1 {
+        height: 90vh;
+    }
+
+    .caption {
+        position: absolute;
+        margin: 0px auto;
+        width: 80%;
+        left: 9%;
+        margin-bottom: 10%;
+    }
+
+    .caption p {
+        width: 70%;
+        margin: 0 auto;
+        font-size: 15px;
+    }
+
+}
+
+.survice-list {
+
+    list-style-type: none;
+    padding-left: 0rem;
+}
+
+.lsit-item {
+    font-size: 13px;
+    text-align: left;
+    line-height: 25px;
+    color: rgb(128, 120, 178)
+}
+
+.lsit-item::before {
+    content: "\f058";
+    font-family: "Font Awesome 6 Free";
+    margin-right: 1rem;
+    color: #484275;
+    background-color: #c5beff;
+    border-radius: 50%;
+
+
+}
+
+.text-color {
+    color: #231D4F;
+
+}
+
+.craft-fair {
+    font-size: 12px;
+    color: rgb(128, 120, 178)
+}
+
+.plan-button {
+    background-color: rgb(224, 224, 224);
+    font-size: 13px;
+    border: 0px;
+    width: 140px;
+
+
+}
+
+.package {
+    margin-top: 80px;
+
+}
+.package-item{
+    transition: transform 1s;
+}
+.package-item:hover{
+    transform: scale(1.01);
+}
+.client-img{
+    height: 101px;
+    width: 100px;
+    margin:0 auto;
+}
+.client-cmnt{
+    font-size: 13px;
+}
+.client-div{
+    height:280px;
+}
+@media only screen and (min-width:300px) and (max-width:576px) {
+
+    .client-div{
+    height:250px;
+}
+}
+
+@media only screen and (max-width:300px){
+    .client-div{
+        height:270px;}
+
+        }
+@media screen and (max-width:250px) {
+    #dipak{
+        height: 300px;}
+    
+}
+.question-margin{
+
+    justify-content: center;
+margin: 80px auto;
+}
+
+.a-button{
+    width: 98%;
+    margin: auto;
+
+}
+.a-button:not(.collapsed){
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+.last-accordion{
+    margin-bottom: 11px;
+}
+
+
