@@ -103,12 +103,27 @@
     font-size: 13px;
 }
 .client-div{
-    height:280px;
+    height:300px;
 }
+.client-name{
+    margin-bottom: 0px;
+    color: #231D4F;
+    margin-top: 5px;
+}
+.client-identity{
+    font-size: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(128, 120, 178)
+}
+
+
+
+
 @media only screen and (min-width:300px) and (max-width:576px) {
 
     .client-div{
-    height:250px;
+    height:270px;
 }
 }
 
@@ -117,7 +132,7 @@
         height:270px;}
 
         }
-@media screen and (max-width:250px) {
+@media screen and (max-width:275px) {
     #dipak{
         height: 300px;}
     
