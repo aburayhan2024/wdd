@@ -144,4 +144,45 @@ margin: 80px auto;
     margin-bottom: 11px;
 }
 
+.footer{
+    background-color: #0B0D17;
+    height: 35vh;
+    color: rgb(196, 196, 196);
+}
+
+.rights{
+    font-size: 13px;
+}
+.apple{
+    width: 135px;
+    height: 40px;
+    background-color: black;
+
+}
+.apple p{
+    font-size: 10px;
+  margin-bottom: 0px;
+}
+.apple h6{
+    font-size: 15px;
+    margin-bottom: 1px;
+
+}
+
+.google-button{
+    width: 140px;
+    height: 40px;
+    background-color: black;
+}
+
+.google-button p{
+    font-size: 10px;
+    margin-bottom: 0px;
+}
+
+.google-button h6{
+    font-size: 15px;
+    margin-bottom: 1px;
+
+}
 
